@@ -1,0 +1,10 @@
+{
+  "buildCommand": "cd frontend && npm install && npm run build",
+  "outputDirectory": "frontend/build",
+  "env": {
+    "REACT_APP_API_URL": "@react_app_api_url"
+  },
+  "envPrefix": "REACT_APP_",
+  "framework": "react",
+  "regions": ["iad1"]
+}

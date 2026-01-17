@@ -1,0 +1,37 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  background: #f5f7fa;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+a {
+  color: #27ae60;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.button-group button {
+  flex: 1;
+}

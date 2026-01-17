@@ -1,0 +1,25 @@
+/**
+ * TRANSPORTER DASHBOARD STYLES
+ */
+
+.transporter-dashboard {
+  display: flex;
+  min-height: 100vh;
+  background: #f5f7fa;
+}
+
+.transporter-dashboard .dashboard-sidebar {
+  width: 280px;
+  background: white;
+  box-shadow: 2px 0 10px rgba(0,0,0,0.1);
+  padding: 30px 20px;
+  position: fixed;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.transporter-dashboard .dashboard-main {
+  margin-left: 280px;
+  flex: 1;
+  padding: 30px;
+}

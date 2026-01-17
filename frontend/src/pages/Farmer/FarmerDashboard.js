@@ -8,8 +8,8 @@
 
 import React, { useState, useEffect } from 'react';
 import { Routes, Route, Link, useNavigate, useLocation } from 'react-router-dom';
-import { useAuth } from '../../context/AuthContext';
-import { farmerService, transactionService } from '../../services/apiService';
+import { useAuth } from '../context/AuthContext';
+import { farmerService, transactionService } from '../services/apiService';
 import { toast } from 'react-toastify';
 import FarmerOffersPage from './FarmerOffersPage';
 import './FarmerDashboard.css';

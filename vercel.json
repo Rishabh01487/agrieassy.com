@@ -1,6 +1,6 @@
 {
-  "buildCommand": "npm install && npm run build",
-  "outputDirectory": "build",
-  "framework": "create-react-app",
-  "root": "frontend"
+  "buildCommand": "cd frontend && npm run build",
+  "installCommand": "cd frontend && npm install",
+  "outputDirectory": "frontend/build",
+  "regions": ["iad1"]
 }

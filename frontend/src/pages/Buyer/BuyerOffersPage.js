@@ -8,8 +8,8 @@
 
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { useAuth } from '../../context/AuthContext';
-import { transactionService } from '../../services/apiService';
+import { useAuth } from '../context/AuthContext';
+import { transactionService } from '../services/apiService';
 import { toast } from 'react-toastify';
 import './BuyerOffers.css';
 

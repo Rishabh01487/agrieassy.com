@@ -5,8 +5,8 @@
  */
 
 import React, { useState, useEffect } from 'react';
-import { useAuth } from '../../context/AuthContext';
-import { buyerService } from '../../services/apiService';
+import { useAuth } from '../context/AuthContext';
+import { buyerService } from '../services/apiService';
 import { toast } from 'react-toastify';
 import './BuyerDashboard.css';
 

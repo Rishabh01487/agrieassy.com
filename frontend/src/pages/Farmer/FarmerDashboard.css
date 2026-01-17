@@ -83,6 +83,8 @@
   font-size: 12px;
   font-weight: 700;
 }
+
+.nav-item a {
   display: block;
   padding: 12px 15px;
   color: #333;
